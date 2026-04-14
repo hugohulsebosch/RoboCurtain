@@ -1,2 +1,13 @@
+from alarm import get_wake_up_time
+from logger import get_logger
+
+
+log = get_logger(__name__)
+
 if __name__ == "__main__":
-    print("This will be the RoboCurtain functionality.")
+    log.info("RoboCurtain starting...")
+    wake_up = get_wake_up_time()
+    if wake_up:
+        print(f"Parsed datetime: {wake_up}")
+    
+    log.info("RoboCurtain is done and also going to sleep. ZzZz...")
