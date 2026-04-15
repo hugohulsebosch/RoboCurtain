@@ -15,11 +15,6 @@
     <key>StartInterval</key>
     <integer>30</integer>
 
-    <key>StandardOutPath</key>
-    <string>/Users/hugohulsebosch/Documents/Code/RoboCurtain/logs/robocurtain.log</string>
-    <key>StandardErrorPath</key>
-    <string>/Users/hugohulsebosch/Documents/Code/RoboCurtain/logs/robocurtain.log</string>
-
     <key>RunAtLoad</key>
     <true/>
 </dict>

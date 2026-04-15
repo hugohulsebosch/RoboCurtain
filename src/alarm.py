@@ -32,10 +32,3 @@ def get_wake_up_time() -> datetime | None:
     log.info(
         f"Wake-up time read from {data['device']}: {alarm_time.strftime('%H:%M %Z')}")
     return alarm_time
-
-
-if __name__ == "__main__":
-    print("This will be the RoboCurtain functionality.")
-    wake_up = get_wake_up_time()
-    if wake_up:
-        print(f"Parsed datetime: {wake_up}")
