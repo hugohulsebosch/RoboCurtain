@@ -17,7 +17,7 @@ def main():
         open_sun = sunrise + timedelta(minutes=15)
         schedule_open(max(open_alarm, open_sun))
 
-    schedule_close(sunset + timedelta(minutes=15))
+    schedule_close(sunset)
 
     log.info("RoboCurtain is done scheduling and going to sleep. ZzZz...")
 
